@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+    xmlns:admin="http://webns.net/mvcb/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+	<channel>
+<title>My RSS Feed</title><link>https://lipengyuan1994.github.io/index.html</link><description>Hot News&#x21;</description><dc:language>en</dc:language><language>en</language><dc:date>2019-03-26T19:53:10-04:00</dc:date><admin:generatorAgent rdf:resource="http://www.realmacsoftware.com/" />
+<sy:updatePeriod>hourly</sy:updatePeriod>
+<sy:updateFrequency>1</sy:updateFrequency>
+<sy:updateBase>2000-01-01T12:00+00:00</sy:updateBase>
+<lastBuildDate>Fri, 11 Jan 2019 08:52:30 -0500</lastBuildDate><item><title>PySpark certification completed</title><dc:subject>NEWS</dc:subject><dc:date>2019-03-26T19:53:10-04:00</dc:date><link>https://lipengyuan1994.github.io/blog-4/blog/files/c21737a4c0446c0ac5972ab424784744-4.html#unique-entry-id-4</link><guid isPermaLink="true">https://lipengyuan1994.github.io/blog-4/blog/files/c21737a4c0446c0ac5972ab424784744-4.html#unique-entry-id-4</guid><content:encoded><![CDATA[<a href="https://www.datacamp.com/statement-of-accomplishment/course/f9b6a4e69c5ed907de1e0d12624396944cf07455" rel="external">https://www.datacamp.com/statement-of-accomplishment/course/f9b6a4e69c5ed907de1e0d12624396944cf07455</a><br />]]></content:encoded></item><item><title>Deep Learning Specialization completed</title><dc:subject>NEWS</dc:subject><dc:date>2019-01-14T12:09:14-05:00</dc:date><link>https://lipengyuan1994.github.io/blog-4/blog/files/9d3d9a8a129505a34949d48f5d437d24-3.html#unique-entry-id-3</link><guid isPermaLink="true">https://lipengyuan1994.github.io/blog-4/blog/files/9d3d9a8a129505a34949d48f5d437d24-3.html#unique-entry-id-3</guid><content:encoded><![CDATA[<a href="https://www.coursera.org/account/accomplishments/specialization/7YQ7HQ3A8YAN">https://www.coursera.org/account/accomplishments/specialization/7YQ7HQ3A8YAN</a>]]></content:encoded></item><item><title>Patrick&#x27;s personal website v1</title><dc:subject>NEWS</dc:subject><dc:date>2019-01-09T15:12:38-05:00</dc:date><link>https://lipengyuan1994.github.io/blog-4/blog/files/365ecdfc20eb283940d252eb239c7a22-2.html#unique-entry-id-2</link><guid isPermaLink="true">https://lipengyuan1994.github.io/blog-4/blog/files/365ecdfc20eb283940d252eb239c7a22-2.html#unique-entry-id-2</guid><content:encoded><![CDATA[First personal website built, this website is used for showcase Patrick's data science projects, as well as his portfolio. He will also post his learning gains and his unique thoughts in the future.]]></content:encoded></item></channel>
+</rss>
