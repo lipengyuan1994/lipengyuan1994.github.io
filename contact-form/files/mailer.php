@@ -27,7 +27,7 @@ $mail_from_email 	= "element1";
 $mail_subject 		= "element2";
 
 //uses the email address defined above as the from email.
-$send_from_users_email = true;
+$send_from_users_email = false;
 
 //sets the PHP setting 'sendmail_from' for use on a windows server.
 $windows_server = false;
