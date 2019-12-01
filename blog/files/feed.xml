@@ -7,11 +7,32 @@
     xmlns:content="http://purl.org/rss/1.0/modules/content/"
 	xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
 	<channel>
-<title>Patrick&#x27;s blog</title><link>https://lipengyuan1994.github.io/index.html</link><description>Patrick&#x27;s blog post</description><dc:language>en</dc:language><language>en</language><dc:creator>Patrick Li</dc:creator><dc:date>2019-11-30T10:10:05-05:00</dc:date><admin:generatorAgent rdf:resource="http://www.realmacsoftware.com/" />
+<title>Patrick&#x27;s blog</title><link>https://lipengyuan1994.github.io/index.html</link><description>Patrick&#x27;s blog post</description><dc:language>en</dc:language><language>en</language><dc:creator>Patrick Li</dc:creator><dc:date>2019-11-30T16:52:37-05:00</dc:date><admin:generatorAgent rdf:resource="http://www.realmacsoftware.com/" />
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
 <sy:updateBase>2000-01-01T12:00+00:00</sy:updateBase>
-<lastBuildDate>Sat, 30 Nov 2019 16:19:32 -0500</lastBuildDate><item><title>Coursera&#x300a;Introduction to TensorFlow&#x300b;week3</title><dc:creator>Patrick Li</dc:creator><category>Data Science</category><category>Mooc</category><dc:date>2019-11-30T10:10:05-05:00</dc:date><link>https://lipengyuan1994.github.io/blog/files/%20.html#unique-entry-id-9</link><guid isPermaLink="true">https://lipengyuan1994.github.io/blog/files/%20.html#unique-entry-id-9</guid><content:encoded><![CDATA[Enhancing Vision with Convolutional Neural Networks
+<lastBuildDate>Sat, 30 Nov 2019 22:20:59 -0500</lastBuildDate><item><title>A thorough review of Introduction to TensorFlow for Artificial Intelligence&#x2c; Machine Learning&#x2c; and Deep Learning &#x7c; deeplearning.ai</title><dc:creator>Patrick Li</dc:creator><category>Data Science</category><category>Mooc</category><dc:date>2019-11-30T16:52:37-05:00</dc:date><link>https://lipengyuan1994.github.io/blog/files/A%20thorough%20review%20of%20Introduction%20to%20TensorFlow%20for%20Artificial%20Intelligence,%20Machine%20Learning,%20and%20Deep%20Learning%20%7C%20Coursera&deeplearning.ai#unique-entry-id-10</link><guid isPermaLink="true">https://lipengyuan1994.github.io/blog/files/A%20thorough%20review%20of%20Introduction%20to%20TensorFlow%20for%20Artificial%20Intelligence,%20Machine%20Learning,%20and%20Deep%20Learning%20%7C%20Coursera&deeplearning.ai#unique-entry-id-10</guid><content:encoded><![CDATA[Course Review: Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning
+
+
+...		The relationship between this course and Deep Learning Specialization
+
+
+...This course is the first course in TensorFlow in Practice Specialization offered by deeplearning.ai.   It is an introduction to TensorFlow as the course name implies it.   Intermediate Level, and will lead you to dive into deep learning/ computer vision/ artificial intelligence.
+
+
+...		Learn best practice for using TensorFlow and theoretical foundation for computer vision.
+
+
+...The relationship between this course and Deep Learning Specialization
+
+
+I would say deep learning specialization is somehow like a prerequisite for this course.   If the students don&rsquo;t know about deep learning, it would be a little bit hard to understand that the code is really doing.   Because this course is more on practice but doesn&rsquo;t cover too much theory foundations, for example, it wouldn&rsquo;t teach you how to calculate the size of the conventions and pooling layers in detail, but the instructor will provide a link to a specific course.   Let me illustrate this by example: in the week2 video, when Laurence Moroney taught using TensorFlow to build convolutional NN, he provided a link to a lecture in the fourth course of DeepLearningSpecialization.
+
+
+...It requires students to have experience in Python coding and high school-level math.   It says, &ldquo;Prior machine learning or deep learning knowledge is helpful but not required.&rdquo;   However, from my point of view, the knowledge of deep learning is also required if you want to get understood what the codes are really doing.   If you already finished DeepLearningSpecialization or you already know the fundamental theories in deep learning, but not familiar with TensorFlow, I would recommend this course to you; If you use PyTorch before and want to get your hand dirty with TensorFlow, I would recommend this to you; If you are an ambitious data enthusiast like me, I would definitely recommend this course to you too!   If you are are interested in this course and searching the information about this course and, then don&rsquo;t hesitate, this course is designed for you.
+
+
+...Laurence Moroney&rsquo;s teaching style is charming, not the same as your professor or other courses provided by Universities. ...  Besides, I love the talks between Laurence and Andrew at the beginning of every week&rsquo;s lecture.   The coding assignments are not challenging, and modesty aside, they are kind of easy for me ( I already finished Andrew&rsquo;s Deep learning Specialization).   Laurence also provided codes in google colab, and it just makes the learning process much more manageable, students can train and test the models in colab very quickly.]]></content:encoded></item><item><title>Coursera&#x300a;Introduction to TensorFlow&#x300b;week3</title><dc:creator>Patrick Li</dc:creator><category>Data Science</category><category>Mooc</category><dc:date>2019-11-30T10:10:05-05:00</dc:date><link>https://lipengyuan1994.github.io/blog/files/%20.html#unique-entry-id-9</link><guid isPermaLink="true">https://lipengyuan1994.github.io/blog/files/%20.html#unique-entry-id-9</guid><content:encoded><![CDATA[Enhancing Vision with Convolutional Neural Networks
 
 
 ...A. A technique to isolate features in images

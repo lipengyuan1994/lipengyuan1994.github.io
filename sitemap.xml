@@ -2,10 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://lipengyuan1994.github.io/index.html</loc>
-		<lastmod>2019-11-30</lastmod>
 	</url>
 	<url>
 		<loc>https://lipengyuan1994.github.io/blog/index.html</loc>
+		<lastmod>2019-11-30</lastmod>
+	</url>
+	<url>
+		<loc>https://lipengyuan1994.github.io/blog/files/A%20thorough%20review%20of%20Introduction%20to%20TensorFlow%20for%20Artificial%20Intelligence,%20Machine%20Learning,%20and%20Deep%20Learning%20%7C%20Coursera&deeplearning.ai</loc>
 		<lastmod>2019-11-30</lastmod>
 	</url>
 	<url>
@@ -81,83 +84,27 @@
 		<lastmod>2019-11-30</lastmod>
 	</url>
 	<url>
-		<loc>https://lipengyuan1994.github.io/blog-4/index.html</loc>
-		<lastmod>2019-11-30</lastmod>
-	</url>
-	<url>
-		<loc>https://lipengyuan1994.github.io/blog-4/files/6f5be5f03947e28b2b8313f11605dbac-9.html</loc>
-		<lastmod>2019-11-30</lastmod>
-	</url>
-	<url>
-		<loc>https://lipengyuan1994.github.io/blog-4/files/c34777df459ccbbbe3d70457d00e388d-8.html</loc>
-		<lastmod>2019-11-30</lastmod>
-	</url>
-	<url>
-		<loc>https://lipengyuan1994.github.io/blog-4/files/32573dd0be04b79893bdc678375652f0-7.html</loc>
-		<lastmod>2019-11-30</lastmod>
-	</url>
-	<url>
-		<loc>https://lipengyuan1994.github.io/blog-4/files/5acb42df1a200d3f5e11060492338258-5.html</loc>
-		<lastmod>2019-11-30</lastmod>
-	</url>
-	<url>
-		<loc>https://lipengyuan1994.github.io/blog-4/files/c21737a4c0446c0ac5972ab424784744-4.html</loc>
-		<lastmod>2019-11-30</lastmod>
-	</url>
-	<url>
-		<loc>https://lipengyuan1994.github.io/blog-4/files/9d3d9a8a129505a34949d48f5d437d24-3.html</loc>
-		<lastmod>2019-11-30</lastmod>
-	</url>
-	<url>
-		<loc>https://lipengyuan1994.github.io/blog-4/files/365ecdfc20eb283940d252eb239c7a22-2.html</loc>
-		<lastmod>2019-11-30</lastmod>
-	</url>
-	<url>
-		<loc>https://lipengyuan1994.github.io/blog-4/files/archive-january-2019.html</loc>
-		<lastmod>2019-11-30</lastmod>
-	</url>
-	<url>
-		<loc>https://lipengyuan1994.github.io/blog-4/files/archive-march-2019.html</loc>
-		<lastmod>2019-11-30</lastmod>
-	</url>
-	<url>
-		<loc>https://lipengyuan1994.github.io/blog-4/files/archive-november-2019.html</loc>
-		<lastmod>2019-11-30</lastmod>
-	</url>
-	<url>
-		<loc>https://lipengyuan1994.github.io/blog-4/files/category-personal.html</loc>
-		<lastmod>2019-11-30</lastmod>
-	</url>
-	<url>
 		<loc>https://lipengyuan1994.github.io/page-4/index.html</loc>
-		<lastmod>2019-11-30</lastmod>
+	</url>
+	<url>
+		<loc>https://lipengyuan1994.github.io/blog-4/index.html</loc>
 	</url>
 	<url>
 		<loc>https://lipengyuan1994.github.io/page-3/index.html</loc>
-		<lastmod>2019-11-30</lastmod>
 	</url>
 	<url>
 		<loc>https://lipengyuan1994.github.io/page-3/page/index.html</loc>
-		<lastmod>2019-11-30</lastmod>
 	</url>
 	<url>
 		<loc>https://lipengyuan1994.github.io/page-3/page-2/index.html</loc>
-		<lastmod>2019-11-30</lastmod>
 	</url>
 	<url>
 		<loc>https://lipengyuan1994.github.io/page-3/blog-5/index.html</loc>
-		<lastmod>2019-11-30</lastmod>
-	</url>
-	<url>
-		<loc>https://lipengyuan1994.github.io/page-3/blog-5/files/archive-january-2019.html</loc>
-		<lastmod>2019-11-30</lastmod>
 	</url>
 	<url>
 		<loc>https://lipengyuan1994.github.io/page-3/blog-5/blog-3/index.html</loc>
-		<lastmod>2019-11-30</lastmod>
 	</url>
 	<url>
 		<loc>https://lipengyuan1994.github.io/page-3/photos/index.html</loc>
-		<lastmod>2019-11-30</lastmod>
 	</url>
 </urlset>
