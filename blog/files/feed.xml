@@ -7,11 +7,126 @@
     xmlns:content="http://purl.org/rss/1.0/modules/content/"
 	xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
 	<channel>
-<title>Patrick&#x27;s blog</title><link>https://lipengyuan1994.github.io/index.html</link><description>Patrick&#x27;s blog post</description><dc:language>en</dc:language><language>en</language><dc:creator>Patrick Li</dc:creator><dc:date>2019-11-30T22:32:32-05:00</dc:date><admin:generatorAgent rdf:resource="http://www.realmacsoftware.com/" />
+<title>Patrick&#x27;s blog</title><link>https://lipengyuan1994.github.io/index.html</link><description>Patrick&#x27;s blog post</description><dc:language>en</dc:language><language>en</language><dc:creator>Patrick Li</dc:creator><dc:date>2019-12-07T17:01:15-05:00</dc:date><admin:generatorAgent rdf:resource="http://www.realmacsoftware.com/" />
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
 <sy:updateBase>2000-01-01T12:00+00:00</sy:updateBase>
-<lastBuildDate>Sat, 30 Nov 2019 22:36:22 -0500</lastBuildDate><item><title>A thorough review of Introduction to TensorFlow for Artificial Intelligence&#x2c; Machine Learning&#x2c; and Deep Learning &#x7c; deeplearning.ai</title><dc:creator>Patrick Li</dc:creator><category>Data Science</category><category>Mooc </category><dc:date>2019-11-30T22:32:32-05:00</dc:date><link>https://lipengyuan1994.github.io/blog/files/87c0427f79f2740e14342f9d38255c50-11.html#unique-entry-id-11</link><guid isPermaLink="true">https://lipengyuan1994.github.io/blog/files/87c0427f79f2740e14342f9d38255c50-11.html#unique-entry-id-11</guid><content:encoded><![CDATA[Course Review: Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning
+<lastBuildDate>Sat, 7 Dec 2019 17:03:52 -0500</lastBuildDate><item><title>Coursera&#x3c;Natural Language Processing in TensorFlow&#x3e; Week 2</title><dc:creator>Patrick Li</dc:creator><category>Data Science</category><category>Mooc</category><dc:date>2019-12-07T17:01:15-05:00</dc:date><link>https://lipengyuan1994.github.io/blog/files/5f5bb902c313eca9039751f6c6b7c1ce-13.html#unique-entry-id-13</link><guid isPermaLink="true">https://lipengyuan1994.github.io/blog/files/5f5bb902c313eca9039751f6c6b7c1ce-13.html#unique-entry-id-13</guid><content:encoded><![CDATA[What is the name of the TensorFlow library containing common data that you can use to train and test neural networks?
+
+
+...There is no library of common data sets, you have to use your own
+
+
+...How many reviews are there in the IMDB dataset and how are they split?
+
+
+60,000 records, 50/50 train/test split
+
+
+...50,000 records, 80/20 train/test split
+
+
+60,000 records, 80/20 train/test split
+
+
+...How are the labels for the IMDB dataset encoded?
+
+
+...Reviews encoded as a number 1-5
+
+
+...It is the number of dimensions for the vector representing the word encoding
+
+
+It is the number of dimensions required to encode every word in the corpus
+
+
+It is the number of words to encode in the embedding
+
+
+It is the number of letters in the word, denoting the size of the encoding
+
+
+...When tokenizing a corpus, what does the num_words=n parameter do?
+
+
+It specifies the maximum number of words to be tokenized, and picks the first &lsquo;n&rsquo; words that were tokenized
+
+
+It specifies the maximum number of words to be tokenized, and stops tokenizing when it reaches n
+
+
+It errors out if there are more than n distinct words in the corpus
+
+
+It specifies the maximum number of words to be tokenized, and picks the most common &lsquo;n&rsquo; words
+
+
+num_words: the maximum number of words to keep, based on word frequency.
+
+
+...To use word embeddings in TensorFlow, in a sequential layer, what is the name of the class?
+
+
+...When using IMDB Sub Words dataset, our results in classification were poor. ]]></content:encoded></item><item><title>Coursera&#x3c;Natural Language Processing in TensorFlow&#x3e; Week 1 </title><dc:creator>Patrick Li</dc:creator><category>Mooc</category><category>Data Science</category><dc:date>2019-12-07T11:31:41-05:00</dc:date><link>https://lipengyuan1994.github.io/blog/files/0c7595d00bde409bb699bc21a3a98aab-12.html#unique-entry-id-12</link><guid isPermaLink="true">https://lipengyuan1994.github.io/blog/files/0c7595d00bde409bb699bc21a3a98aab-12.html#unique-entry-id-12</guid><content:encoded><![CDATA[What is the name of the object used to tokenize sentences?
+
+
+...What is the name of the method used to tokenize a list of sentences?
+
+
+...Once you have the corpus tokenized, what&rsquo;s the method used to encode a list of sentences to use those tokens?
+
+
+...When initializing the tokenizer, how to you specify a token to use for unknown words?
+
+
+...If you don&rsquo;t use a token for out of vocabulary words, what happens at encoding?
+
+
+...The word isn&rsquo;t encoded, and is skipped in the sequence
+
+
+The word isn&rsquo;t encoded, and is replaced by a zero in the sequence
+
+
+...If you have a number of sequences of different lengths, how do you ensure that they are understood when fed into a neural network?
+
+
+Process them on the input layer of the Neural Netword using the pad_sequences property
+
+
+...Specify the input layer of the Neural Network to expect different sizes with dynamic_length
+
+
+Make sure that they are all the same length using the pad_sequences method of the tokenizer
+
+
+...If you have a number of sequences of different length, and call pad_sequences on them, what&rsquo;s the default result?
+
+
+They&rsquo;ll get cropped to the length of the shortest sequence
+
+
+They&rsquo;ll get padded to the length of the longest sequence by adding zeros to the beginning of shorter ones
+
+
+They&rsquo;ll get padded to the length of the longest sequence by adding zeros to the end of shorter ones
+
+
+...When padding sequences, if you want the padding to be at the end of the sequence, how do you do it?
+
+
+Call the padding method of the pad_sequences object, passing it &lsquo;after&rsquo;
+
+
+Call the padding method of the pad_sequences object, passing it &lsquo;post&rsquo;
+
+
+Pass padding=&rsquo;post&rsquo; to pad_sequences when initializing it
+
+
+Pass padding=&rsquo;after&rsquo; to pad_sequences when initializing it
+]]></content:encoded></item><item><title>A thorough review of Introduction to TensorFlow for Artificial Intelligence&#x2c; Machine Learning&#x2c; and Deep Learning &#x7c; deeplearning.ai</title><dc:creator>Patrick Li</dc:creator><category>Data Science</category><category>Mooc</category><dc:date>2019-11-30T22:32:32-05:00</dc:date><link>https://lipengyuan1994.github.io/blog/files/87c0427f79f2740e14342f9d38255c50-11.html#unique-entry-id-11</link><guid isPermaLink="true">https://lipengyuan1994.github.io/blog/files/87c0427f79f2740e14342f9d38255c50-11.html#unique-entry-id-11</guid><content:encoded><![CDATA[Course Review: Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning
 
 
 ...		The relationship between this course and Deep Learning Specialization
@@ -32,7 +147,7 @@ I would say deep learning specialization is somehow like a prerequisite for this
 ...Laurence Moroney&rsquo;s teaching style is charming, not the same as your professor or other courses provided by Universities. ...  Besides, I love the talks between Laurence and Andrew at the beginning of every week&rsquo;s lecture.   The coding assignments are not challenging, and modesty aside, they are kind of easy for me ( I already finished Andrew&rsquo;s Deep learning Specialization).   Laurence also provided codes in google colab, and it just makes the learning process much more manageable, students can train and test the models in colab very quickly.
 
 
-And as usual, you can find all materials of this course in my GitHub repo.]]></content:encoded></item><item><title>Coursera&#x300a;Introduction to TensorFlow&#x300b;week3</title><dc:creator>Patrick Li</dc:creator><category>Data Science</category><category>Mooc</category><dc:date>2019-11-30T10:10:05-05:00</dc:date><link>https://lipengyuan1994.github.io/blog/files/%20.html#unique-entry-id-9</link><guid isPermaLink="true">https://lipengyuan1994.github.io/blog/files/%20.html#unique-entry-id-9</guid><content:encoded><![CDATA[Enhancing Vision with Convolutional Neural Networks
+And as usual, you can find all materials of this course in my GitHub repo.]]></content:encoded></item><item><title>Coursera &#x3c;Introduction to TensorFlow&#x3e;week3</title><dc:creator>Patrick Li</dc:creator><category>Data Science</category><category>Mooc</category><dc:date>2019-11-30T10:10:05-05:00</dc:date><link>https://lipengyuan1994.github.io/blog/files/%20.html#unique-entry-id-9</link><guid isPermaLink="true">https://lipengyuan1994.github.io/blog/files/%20.html#unique-entry-id-9</guid><content:encoded><![CDATA[Enhancing Vision with Convolutional Neural Networks
 
 
 ...A. A technique to isolate features in images
