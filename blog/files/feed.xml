@@ -7,11 +7,69 @@
     xmlns:content="http://purl.org/rss/1.0/modules/content/"
 	xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
 	<channel>
-<title>Patrick&#x27;s blog</title><link>https://lipengyuan1994.github.io/index.html</link><description>Patrick&#x27;s blog post</description><dc:language>en</dc:language><language>en</language><dc:creator>Patrick Li</dc:creator><dc:date>2019-12-07T17:01:15-05:00</dc:date><admin:generatorAgent rdf:resource="http://www.realmacsoftware.com/" />
+<title>Patrick&#x27;s blog</title><link>https://lipengyuan1994.github.io/index.html</link><description>Patrick&#x27;s blog post</description><dc:language>en</dc:language><language>en</language><dc:creator>Patrick Li</dc:creator><dc:date>2019-12-08T10:49:38-05:00</dc:date><admin:generatorAgent rdf:resource="http://www.realmacsoftware.com/" />
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
 <sy:updateBase>2000-01-01T12:00+00:00</sy:updateBase>
-<lastBuildDate>Sat, 7 Dec 2019 17:03:52 -0500</lastBuildDate><item><title>Coursera&#x3c;Natural Language Processing in TensorFlow&#x3e; Week 2</title><dc:creator>Patrick Li</dc:creator><category>Data Science</category><category>Mooc</category><dc:date>2019-12-07T17:01:15-05:00</dc:date><link>https://lipengyuan1994.github.io/blog/files/5f5bb902c313eca9039751f6c6b7c1ce-13.html#unique-entry-id-13</link><guid isPermaLink="true">https://lipengyuan1994.github.io/blog/files/5f5bb902c313eca9039751f6c6b7c1ce-13.html#unique-entry-id-13</guid><content:encoded><![CDATA[What is the name of the TensorFlow library containing common data that you can use to train and test neural networks?
+<lastBuildDate>Sun, 8 Dec 2019 10:51:16 -0500</lastBuildDate><item><title>Coursera Natural Language Processing in TensorFlow Week 3</title><dc:creator>Patrick Li</dc:creator><category>Data Science</category><category>Mooc</category><dc:date>2019-12-08T10:49:38-05:00</dc:date><link>https://lipengyuan1994.github.io/blog/files/1e6bec86a96c0a806d3719a519ebdc38-14.html#unique-entry-id-14</link><guid isPermaLink="true">https://lipengyuan1994.github.io/blog/files/1e6bec86a96c0a806d3719a519ebdc38-14.html#unique-entry-id-14</guid><content:encoded><![CDATA[Why does sequence make a large difference when determining semantics of language?
+
+
+Because the order in which words appear dictate their meaning
+
+
+Because the order in which words appear dictate their impact on the meaning of the sentence
+
+
+Because the order of words doesn&rsquo;t matter
+
+
+...How do Recurrent Neural Networks help you understand the impact of sequence on meaning?
+
+
+...They look at the whole sentence at a time
+
+
+They carry meaning from one cell to the next
+
+
+They shuffle the words evenly
+
+
+...How does an LSTM help understand meaning when words that qualify each other aren&rsquo;t necessarily beside each other in a sentence?
+
+
+They shuffle the words randomly
+
+
+They load all words into a cell state
+
+
+Values from earlier words can be carried to later ones via a cell state
+
+
+...What keras layer type allows LSTMs to look forward and backward in a sentence?
+
+
+...What&rsquo;s the output shape of a bidirectional LSTM layer with 64 units?
+
+
+...When stacking LSTMs, how do you instruct an LSTM to feed the next one in the sequence?
+
+
+...Ensure that return_sequences is set to True on all units
+
+
+Ensure that return_sequences is set to True only on units that feed to another LSTM
+
+
+Ensure that they have the same number of units
+
+
+...If a sentence has 120 tokens in it, and a Conv1D with 128 filters with a Kernal size of 5 is passed over it, what&rsquo;s the output shape?
+
+
+...What&rsquo;s the best way to avoid overfitting in NLP datasets?
+]]></content:encoded></item><item><title>Coursera Natural Language Processing in TensorFlow Week 2</title><dc:creator>Patrick Li</dc:creator><category>Data Science</category><category>Mooc</category><dc:date>2019-12-07T17:01:15-05:00</dc:date><link>https://lipengyuan1994.github.io/blog/files/5f5bb902c313eca9039751f6c6b7c1ce-13.html#unique-entry-id-13</link><guid isPermaLink="true">https://lipengyuan1994.github.io/blog/files/5f5bb902c313eca9039751f6c6b7c1ce-13.html#unique-entry-id-13</guid><content:encoded><![CDATA[What is the name of the TensorFlow library containing common data that you can use to train and test neural networks?
 
 
 ...There is no library of common data sets, you have to use your own
@@ -68,7 +126,7 @@ num_words: the maximum number of words to keep, based on word frequency.
 ...To use word embeddings in TensorFlow, in a sequential layer, what is the name of the class?
 
 
-...When using IMDB Sub Words dataset, our results in classification were poor. ]]></content:encoded></item><item><title>Coursera&#x3c;Natural Language Processing in TensorFlow&#x3e; Week 1 </title><dc:creator>Patrick Li</dc:creator><category>Mooc</category><category>Data Science</category><dc:date>2019-12-07T11:31:41-05:00</dc:date><link>https://lipengyuan1994.github.io/blog/files/0c7595d00bde409bb699bc21a3a98aab-12.html#unique-entry-id-12</link><guid isPermaLink="true">https://lipengyuan1994.github.io/blog/files/0c7595d00bde409bb699bc21a3a98aab-12.html#unique-entry-id-12</guid><content:encoded><![CDATA[What is the name of the object used to tokenize sentences?
+...When using IMDB Sub Words dataset, our results in classification were poor. ]]></content:encoded></item><item><title>Coursera Natural Language Processing in TensorFlow Week 1 </title><dc:creator>Patrick Li</dc:creator><category>Mooc</category><category>Data Science</category><dc:date>2019-12-07T11:31:41-05:00</dc:date><link>https://lipengyuan1994.github.io/blog/files/0c7595d00bde409bb699bc21a3a98aab-12.html#unique-entry-id-12</link><guid isPermaLink="true">https://lipengyuan1994.github.io/blog/files/0c7595d00bde409bb699bc21a3a98aab-12.html#unique-entry-id-12</guid><content:encoded><![CDATA[What is the name of the object used to tokenize sentences?
 
 
 ...What is the name of the method used to tokenize a list of sentences?
@@ -147,7 +205,7 @@ I would say deep learning specialization is somehow like a prerequisite for this
 ...Laurence Moroney&rsquo;s teaching style is charming, not the same as your professor or other courses provided by Universities. ...  Besides, I love the talks between Laurence and Andrew at the beginning of every week&rsquo;s lecture.   The coding assignments are not challenging, and modesty aside, they are kind of easy for me ( I already finished Andrew&rsquo;s Deep learning Specialization).   Laurence also provided codes in google colab, and it just makes the learning process much more manageable, students can train and test the models in colab very quickly.
 
 
-And as usual, you can find all materials of this course in my GitHub repo.]]></content:encoded></item><item><title>Coursera &#x3c;Introduction to TensorFlow&#x3e;week3</title><dc:creator>Patrick Li</dc:creator><category>Data Science</category><category>Mooc</category><dc:date>2019-11-30T10:10:05-05:00</dc:date><link>https://lipengyuan1994.github.io/blog/files/%20.html#unique-entry-id-9</link><guid isPermaLink="true">https://lipengyuan1994.github.io/blog/files/%20.html#unique-entry-id-9</guid><content:encoded><![CDATA[Enhancing Vision with Convolutional Neural Networks
+And as usual, you can find all materials of this course in my GitHub repo.]]></content:encoded></item><item><title>Coursera Introduction to TensorFlow week3</title><dc:creator>Patrick Li</dc:creator><category>Data Science</category><category>Mooc</category><dc:date>2019-11-30T10:10:05-05:00</dc:date><link>https://lipengyuan1994.github.io/blog/files/%20.html#unique-entry-id-9</link><guid isPermaLink="true">https://lipengyuan1994.github.io/blog/files/%20.html#unique-entry-id-9</guid><content:encoded><![CDATA[Enhancing Vision with Convolutional Neural Networks
 
 
 ...A. A technique to isolate features in images
@@ -202,7 +260,7 @@ D. They make the image smaller
 
 
 A. It depends on many factors.   It might make your training faster or slower, and a poorly designed Convolutional layer may even be less efficient than a plain DNN!
-]]></content:encoded></item><item><title>Coursera&#x300a;Introduction to TensorFlow&#x300b;week2</title><dc:creator>Patrick Li</dc:creator><category>Data Science</category><category>Mooc</category><dc:date>2019-11-30T10:03:53-05:00</dc:date><link>https://lipengyuan1994.github.io/blog/files/da9606071efd34384b3e5608e488379f-8.html#unique-entry-id-8</link><guid isPermaLink="true">https://lipengyuan1994.github.io/blog/files/da9606071efd34384b3e5608e488379f-8.html#unique-entry-id-8</guid><content:encoded><![CDATA[	1	What&rsquo;s the name of the dataset of Fashion images used in this week&rsquo;s code?
+]]></content:encoded></item><item><title>Coursera Introduction to TensorFlow week2</title><dc:creator>Patrick Li</dc:creator><category>Data Science</category><category>Mooc</category><dc:date>2019-11-30T10:03:53-05:00</dc:date><link>https://lipengyuan1994.github.io/blog/files/da9606071efd34384b3e5608e488379f-8.html#unique-entry-id-8</link><guid isPermaLink="true">https://lipengyuan1994.github.io/blog/files/da9606071efd34384b3e5608e488379f-8.html#unique-entry-id-8</guid><content:encoded><![CDATA[	1	What&rsquo;s the name of the dataset of Fashion images used in this week&rsquo;s code?
 
 
 ...D. Fashion Data
@@ -260,7 +318,7 @@ A. on_epoch_end
 
 
 ...	8	What parameter to you set in your fit function to tell it to use callbacks?
-]]></content:encoded></item><item><title>Coursera&#x300a;Introduction to TensorFlow&#x300b;week1</title><dc:creator>Patrick Li</dc:creator><category>Data Science</category><category>Mooc</category><dc:date>2019-11-30T09:46:50-05:00</dc:date><link>https://lipengyuan1994.github.io/blog/files/44ece4e1dbcf20d7264d87bbcd2961a5-7.html#unique-entry-id-7</link><guid isPermaLink="true">https://lipengyuan1994.github.io/blog/files/44ece4e1dbcf20d7264d87bbcd2961a5-7.html#unique-entry-id-7</guid><content:encoded><![CDATA[	1	The diagram for traditional programming had Rules and Data In, but what came out?
+]]></content:encoded></item><item><title>Coursera Introduction to TensorFlow week1</title><dc:creator>Patrick Li</dc:creator><category>Data Science</category><category>Mooc</category><dc:date>2019-11-30T09:46:50-05:00</dc:date><link>https://lipengyuan1994.github.io/blog/files/44ece4e1dbcf20d7264d87bbcd2961a5-7.html#unique-entry-id-7</link><guid isPermaLink="true">https://lipengyuan1994.github.io/blog/files/44ece4e1dbcf20d7264d87bbcd2961a5-7.html#unique-entry-id-7</guid><content:encoded><![CDATA[	1	The diagram for traditional programming had Rules and Data In, but what came out?
 
 
 ...	2	The diagram for Machine Learning had Answers and Data In, but what came out?
@@ -318,7 +376,7 @@ B. It makes a model fit available memory
 
 
 ...D. It determines if your activity is good for your body
-]]></content:encoded></item><item><title>Coursera&#x300a;Introduction to TensorFlow&#x300b;week4 </title><dc:creator>Patrick Li</dc:creator><category>Data Science</category><category>Mooc</category><dc:date>2019-11-30T09:37:33-05:00</dc:date><link>https://lipengyuan1994.github.io/blog/files/6094fdd0289c572ca56833876e4702c4-6.html#unique-entry-id-6</link><guid isPermaLink="true">https://lipengyuan1994.github.io/blog/files/6094fdd0289c572ca56833876e4702c4-6.html#unique-entry-id-6</guid><content:encoded><![CDATA[A. It&rsquo;s based on the directory the image is contained in
+]]></content:encoded></item><item><title>Coursera Introduction to TensorFlow week4 </title><dc:creator>Patrick Li</dc:creator><category>Data Science</category><category>Mooc</category><dc:date>2019-11-30T09:37:33-05:00</dc:date><link>https://lipengyuan1994.github.io/blog/files/6094fdd0289c572ca56833876e4702c4-6.html#unique-entry-id-6</link><guid isPermaLink="true">https://lipengyuan1994.github.io/blog/files/6094fdd0289c572ca56833876e4702c4-6.html#unique-entry-id-6</guid><content:encoded><![CDATA[A. It&rsquo;s based on the directory the image is contained in
 
 
 ...What method on the Image Generator is used to normalize the image?
