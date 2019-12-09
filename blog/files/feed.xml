@@ -7,11 +7,68 @@
     xmlns:content="http://purl.org/rss/1.0/modules/content/"
 	xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
 	<channel>
-<title>Patrick&#x27;s blog</title><link>https://lipengyuan1994.github.io/index.html</link><description>Patrick&#x27;s blog post</description><dc:language>en</dc:language><language>en</language><dc:creator>Patrick Li</dc:creator><dc:date>2019-12-08T10:49:38-05:00</dc:date><admin:generatorAgent rdf:resource="http://www.realmacsoftware.com/" />
+<title>Patrick&#x27;s blog</title><link>https://lipengyuan1994.github.io/index.html</link><description>Patrick&#x27;s blog post</description><dc:language>en</dc:language><language>en</language><dc:creator>Patrick Li</dc:creator><dc:date>2019-12-08T22:04:59-05:00</dc:date><admin:generatorAgent rdf:resource="http://www.realmacsoftware.com/" />
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
 <sy:updateBase>2000-01-01T12:00+00:00</sy:updateBase>
-<lastBuildDate>Sun, 8 Dec 2019 10:51:16 -0500</lastBuildDate><item><title>Coursera Natural Language Processing in TensorFlow Week 3</title><dc:creator>Patrick Li</dc:creator><category>Data Science</category><category>Mooc</category><dc:date>2019-12-08T10:49:38-05:00</dc:date><link>https://lipengyuan1994.github.io/blog/files/1e6bec86a96c0a806d3719a519ebdc38-14.html#unique-entry-id-14</link><guid isPermaLink="true">https://lipengyuan1994.github.io/blog/files/1e6bec86a96c0a806d3719a519ebdc38-14.html#unique-entry-id-14</guid><content:encoded><![CDATA[Why does sequence make a large difference when determining semantics of language?
+<lastBuildDate>Sun, 8 Dec 2019 22:05:46 -0500</lastBuildDate><item><title>Coursera Natural Language Processing in TensorFlow Week 4</title><dc:creator>Patrick Li</dc:creator><category>Data Science</category><category>Mooc</category><dc:date>2019-12-08T22:04:59-05:00</dc:date><link>https://lipengyuan1994.github.io/blog/files/98461744131ecb120c9fdd29e81377c1-15.html#unique-entry-id-15</link><guid isPermaLink="true">https://lipengyuan1994.github.io/blog/files/98461744131ecb120c9fdd29e81377c1-15.html#unique-entry-id-15</guid><content:encoded><![CDATA[What is the name of the method used to tokenize a list of sentences?
+
+
+...If a sentence has 120 tokens in it, and a Conv1D with 128 filters with a Kernal size of 5 is passed over it, what&rsquo;s the output shape?
+
+
+...It is the number of dimensions for the vector representing the word encoding
+
+
+It is the number of dimensions required to encode every word in the corpus
+
+
+It is the number of words to encode in the embedding
+
+
+It is the number of letters in the word, denoting the size of the encoding
+
+
+...If you have a number of sequences of different lengths, how do you ensure that they are understood when fed into a neural network?
+
+
+...Process them on the input layer of the Neural Network using the pad_sequences property
+
+
+Specify the input layer of the Neural Network to expect different sizes with dynamic_length
+
+
+Make sure that they are all the same length using the pad_sequences method of the tokenizer
+
+
+...When predicting words to generate poetry, the more words predicted the more likely it will end up gibberish. 
+
+...Because you are more likely to hit words not in the training set
+
+
+...Because the probability that each word matches an existing phrase goes down the more words you create
+
+
+...What is a major drawback of word-based training for text generation instead of character-based generation?
+
+
+There is no major drawback, it&rsquo;s always better to do word-based training
+
+
+Because there are far more words in a typical corpus than characters, it is much more memory intensive
+
+
+Character based generation is more accurate because there are less characters to predict
+
+
+Word based generation is more accurate because there is a larger body of words to draw from
+
+
+...How does an LSTM help understand meaning when words that qualify each other aren&rsquo;t necessarily beside each other in a sentence?
+
+
+...Values from earlier words can be carried to later ones via a cell state
+]]></content:encoded></item><item><title>Coursera Natural Language Processing in TensorFlow Week 3</title><dc:creator>Patrick Li</dc:creator><category>Data Science</category><category>Mooc</category><dc:date>2019-12-08T10:49:38-05:00</dc:date><link>https://lipengyuan1994.github.io/blog/files/1e6bec86a96c0a806d3719a519ebdc38-14.html#unique-entry-id-14</link><guid isPermaLink="true">https://lipengyuan1994.github.io/blog/files/1e6bec86a96c0a806d3719a519ebdc38-14.html#unique-entry-id-14</guid><content:encoded><![CDATA[Why does sequence make a large difference when determining semantics of language?
 
 
 Because the order in which words appear dictate their meaning
