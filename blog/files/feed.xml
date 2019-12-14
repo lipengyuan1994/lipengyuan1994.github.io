@@ -7,11 +7,67 @@
     xmlns:content="http://purl.org/rss/1.0/modules/content/"
 	xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
 	<channel>
-<title>Patrick&#x27;s blog</title><link>https://lipengyuan1994.github.io/index.html</link><description>Patrick&#x27;s blog post</description><dc:language>en</dc:language><language>en</language><dc:creator>Patrick Li</dc:creator><dc:date>2019-12-11T08:11:56-05:00</dc:date><admin:generatorAgent rdf:resource="http://www.realmacsoftware.com/" />
+<title>Patrick&#x27;s blog</title><link>https://lipengyuan1994.github.io/index.html</link><description>Patrick&#x27;s blog post</description><dc:language>en</dc:language><language>en</language><dc:creator>Patrick Li</dc:creator><dc:date>2019-12-14T16:45:44-05:00</dc:date><admin:generatorAgent rdf:resource="http://www.realmacsoftware.com/" />
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
 <sy:updateBase>2000-01-01T12:00+00:00</sy:updateBase>
-<lastBuildDate>Wed, 11 Dec 2019 08:14:05 -0500</lastBuildDate><item><title>Natural Language Processing in TensorFlow&#x2c; Tensorflow in Practice Specialization&#x2c; Coursera</title><dc:creator>Patrick Li</dc:creator><category>Data Science</category><category>Mooc</category><dc:date>2019-12-11T08:11:56-05:00</dc:date><link>https://lipengyuan1994.github.io/blog/files/1602f64c1e247e80b01caaa2aee8db5a-16.html#unique-entry-id-16</link><guid isPermaLink="true">https://lipengyuan1994.github.io/blog/files/1602f64c1e247e80b01caaa2aee8db5a-16.html#unique-entry-id-16</guid><content:encoded><![CDATA[A thorough review of this course, including all points it covered and some free materials provided by Laurence Moroney
+<lastBuildDate>Sat, 14 Dec 2019 16:51:45 -0500</lastBuildDate><item><title>Convolutional Neural Networks in Tensorflow Quiz</title><dc:creator>Patrick Li</dc:creator><category>Data Science</category><category>Mooc</category><dc:date>2019-12-14T16:45:44-05:00</dc:date><link>https://lipengyuan1994.github.io/blog/files/40c676068fbfe84c6c299b9332151b33-17.html#unique-entry-id-17</link><guid isPermaLink="true">https://lipengyuan1994.github.io/blog/files/40c676068fbfe84c6c299b9332151b33-17.html#unique-entry-id-17</guid><content:encoded><![CDATA[The ability to pick the size of training images
+
+
+The ability to automatically label images based on their directory name
+
+
+...If my Image is sized 150x150, and I pass a 3x3 Convolution over it, what size is the resulting image?
+
+
+...If my data is sized 150x150, and I use Pooling of size 2x2, what size will the resulting image be?
+
+
+...If I want to view the history of my training, how can I access it?
+
+
+...Create a variable &lsquo;history&rsquo; and assign it to the return of model.fit or model.fit_generator
+
+
+...What&rsquo;s the name of the API that allows you to inspect the impact of convolutions on the images?
+
+
+...When exploring the graphs, the loss levelled out at about .75 after 2 epochs, but the accuracy climbed close to 1.0 after 15 epochs. 
+
+...There was no point training after 2 epochs, as we overfit to the validation data
+
+
+There was no point training after 2 epochs, as we overfit to the training data
+
+
+A bigger training set would give us better validation accuracy
+
+
+A bigger validation set would give us better training accuracy
+
+
+...Why is the validation accuracy a better indicator of model performance than training accuracy?
+
+
+...The validation accuracy is based on images that the model hasn't been trained with, and thus a better indicator of how the model will perform with new images.
+
+
+The validation dataset is smaller, and thus less accurate at measuring accuracy, so its performance isn't as important
+
+
+...Because in a smaller dataset, your validation data is more likely to look like your training data
+
+
+Because there isn't enough data to activate all the convolutions or neurons
+
+
+Because with less data, the training will take place more quickly, and some features may be missed
+
+
+Because there's less likelihood of all possible features being encountered in the training process.
+
+
+...I, Pengyuan Li, understand that submitting work that isn&rsquo;t my own may result in permanent failure of this course or deactivation of my Coursera account. ]]></content:encoded></item><item><title>Review: Natural Language Processing in TensorFlow&#x2c; Tensorflow in Practice Specialization&#x2c; Coursera</title><dc:creator>Patrick Li</dc:creator><category>Data Science</category><category>Mooc</category><dc:date>2019-12-11T08:11:56-05:00</dc:date><link>https://lipengyuan1994.github.io/blog/files/1602f64c1e247e80b01caaa2aee8db5a-16.html#unique-entry-id-16</link><guid isPermaLink="true">https://lipengyuan1994.github.io/blog/files/1602f64c1e247e80b01caaa2aee8db5a-16.html#unique-entry-id-16</guid><content:encoded><![CDATA[A thorough review of this course, including all points it covered and some free materials provided by Laurence Moroney
 
 
 ...The knowledge point of this course(Natural Language Processing in Tensorflow) is organized in strict chronological order as to how the instructor designed this course. 
@@ -53,182 +109,7 @@ However, from my point of view, the knowledge given in this course is too&nbsp;b
 
 
 As usual, you can find all the materials in&nbsp;my Github repo.   This is a treasure repo, and welcome to contribute this repo if you are also a life-long learner like me.
-]]></content:encoded></item><item><title>Coursera Natural Language Processing in TensorFlow Week 4</title><dc:creator>Patrick Li</dc:creator><category>Data Science</category><category>Mooc</category><dc:date>2019-12-08T22:04:59-05:00</dc:date><link>https://lipengyuan1994.github.io/blog/files/98461744131ecb120c9fdd29e81377c1-15.html#unique-entry-id-15</link><guid isPermaLink="true">https://lipengyuan1994.github.io/blog/files/98461744131ecb120c9fdd29e81377c1-15.html#unique-entry-id-15</guid><content:encoded><![CDATA[What is the name of the method used to tokenize a list of sentences?
-
-
-...If a sentence has 120 tokens in it, and a Conv1D with 128 filters with a Kernal size of 5 is passed over it, what&rsquo;s the output shape?
-
-
-...It is the number of dimensions for the vector representing the word encoding
-
-
-It is the number of dimensions required to encode every word in the corpus
-
-
-It is the number of words to encode in the embedding
-
-
-It is the number of letters in the word, denoting the size of the encoding
-
-
-...If you have a number of sequences of different lengths, how do you ensure that they are understood when fed into a neural network?
-
-
-...Process them on the input layer of the Neural Network using the pad_sequences property
-
-
-Specify the input layer of the Neural Network to expect different sizes with dynamic_length
-
-
-Make sure that they are all the same length using the pad_sequences method of the tokenizer
-
-
-...When predicting words to generate poetry, the more words predicted the more likely it will end up gibberish. 
-
-...Because you are more likely to hit words not in the training set
-
-
-...Because the probability that each word matches an existing phrase goes down the more words you create
-
-
-...What is a major drawback of word-based training for text generation instead of character-based generation?
-
-
-There is no major drawback, it&rsquo;s always better to do word-based training
-
-
-Because there are far more words in a typical corpus than characters, it is much more memory intensive
-
-
-Character based generation is more accurate because there are less characters to predict
-
-
-Word based generation is more accurate because there is a larger body of words to draw from
-
-
-...How does an LSTM help understand meaning when words that qualify each other aren&rsquo;t necessarily beside each other in a sentence?
-
-
-...Values from earlier words can be carried to later ones via a cell state
-]]></content:encoded></item><item><title>Coursera Natural Language Processing in TensorFlow Week 3</title><dc:creator>Patrick Li</dc:creator><category>Data Science</category><category>Mooc</category><dc:date>2019-12-08T10:49:38-05:00</dc:date><link>https://lipengyuan1994.github.io/blog/files/1e6bec86a96c0a806d3719a519ebdc38-14.html#unique-entry-id-14</link><guid isPermaLink="true">https://lipengyuan1994.github.io/blog/files/1e6bec86a96c0a806d3719a519ebdc38-14.html#unique-entry-id-14</guid><content:encoded><![CDATA[Why does sequence make a large difference when determining semantics of language?
-
-
-Because the order in which words appear dictate their meaning
-
-
-Because the order in which words appear dictate their impact on the meaning of the sentence
-
-
-Because the order of words doesn&rsquo;t matter
-
-
-...How do Recurrent Neural Networks help you understand the impact of sequence on meaning?
-
-
-...They look at the whole sentence at a time
-
-
-They carry meaning from one cell to the next
-
-
-They shuffle the words evenly
-
-
-...How does an LSTM help understand meaning when words that qualify each other aren&rsquo;t necessarily beside each other in a sentence?
-
-
-They shuffle the words randomly
-
-
-They load all words into a cell state
-
-
-Values from earlier words can be carried to later ones via a cell state
-
-
-...What keras layer type allows LSTMs to look forward and backward in a sentence?
-
-
-...What&rsquo;s the output shape of a bidirectional LSTM layer with 64 units?
-
-
-...When stacking LSTMs, how do you instruct an LSTM to feed the next one in the sequence?
-
-
-...Ensure that return_sequences is set to True on all units
-
-
-Ensure that return_sequences is set to True only on units that feed to another LSTM
-
-
-Ensure that they have the same number of units
-
-
-...If a sentence has 120 tokens in it, and a Conv1D with 128 filters with a Kernal size of 5 is passed over it, what&rsquo;s the output shape?
-
-
-...What&rsquo;s the best way to avoid overfitting in NLP datasets?
-]]></content:encoded></item><item><title>Coursera Natural Language Processing in TensorFlow Week 2</title><dc:creator>Patrick Li</dc:creator><category>Data Science</category><category>Mooc</category><dc:date>2019-12-07T17:01:15-05:00</dc:date><link>https://lipengyuan1994.github.io/blog/files/5f5bb902c313eca9039751f6c6b7c1ce-13.html#unique-entry-id-13</link><guid isPermaLink="true">https://lipengyuan1994.github.io/blog/files/5f5bb902c313eca9039751f6c6b7c1ce-13.html#unique-entry-id-13</guid><content:encoded><![CDATA[What is the name of the TensorFlow library containing common data that you can use to train and test neural networks?
-
-
-...There is no library of common data sets, you have to use your own
-
-
-...How many reviews are there in the IMDB dataset and how are they split?
-
-
-60,000 records, 50/50 train/test split
-
-
-...50,000 records, 80/20 train/test split
-
-
-60,000 records, 80/20 train/test split
-
-
-...How are the labels for the IMDB dataset encoded?
-
-
-...Reviews encoded as a number 1-5
-
-
-...It is the number of dimensions for the vector representing the word encoding
-
-
-It is the number of dimensions required to encode every word in the corpus
-
-
-It is the number of words to encode in the embedding
-
-
-It is the number of letters in the word, denoting the size of the encoding
-
-
-...When tokenizing a corpus, what does the num_words=n parameter do?
-
-
-It specifies the maximum number of words to be tokenized, and picks the first &lsquo;n&rsquo; words that were tokenized
-
-
-It specifies the maximum number of words to be tokenized, and stops tokenizing when it reaches n
-
-
-It errors out if there are more than n distinct words in the corpus
-
-
-It specifies the maximum number of words to be tokenized, and picks the most common &lsquo;n&rsquo; words
-
-
-num_words: the maximum number of words to keep, based on word frequency.
-
-
-...To use word embeddings in TensorFlow, in a sequential layer, what is the name of the class?
-
-
-...When using IMDB Sub Words dataset, our results in classification were poor. ]]></content:encoded></item><item><title>Coursera Natural Language Processing in TensorFlow Week 1 </title><dc:creator>Patrick Li</dc:creator><category>Mooc</category><category>Data Science</category><dc:date>2019-12-07T11:31:41-05:00</dc:date><link>https://lipengyuan1994.github.io/blog/files/0c7595d00bde409bb699bc21a3a98aab-12.html#unique-entry-id-12</link><guid isPermaLink="true">https://lipengyuan1994.github.io/blog/files/0c7595d00bde409bb699bc21a3a98aab-12.html#unique-entry-id-12</guid><content:encoded><![CDATA[What is the name of the object used to tokenize sentences?
-
-
-...What is the name of the method used to tokenize a list of sentences?
+]]></content:encoded></item><item><title>Coursera Natural Language Processing in TensorFlow </title><dc:creator>Patrick Li</dc:creator><category>Mooc</category><category>Data Science</category><dc:date>2019-12-07T11:31:41-05:00</dc:date><link>https://lipengyuan1994.github.io/blog/files/0c7595d00bde409bb699bc21a3a98aab-12.html#unique-entry-id-12</link><guid isPermaLink="true">https://lipengyuan1994.github.io/blog/files/0c7595d00bde409bb699bc21a3a98aab-12.html#unique-entry-id-12</guid><content:encoded><![CDATA[What is the name of the method used to tokenize a list of sentences?
 
 
 ...Once you have the corpus tokenized, what&rsquo;s the method used to encode a list of sentences to use those tokens?
@@ -240,49 +121,52 @@ num_words: the maximum number of words to keep, based on word frequency.
 ...If you don&rsquo;t use a token for out of vocabulary words, what happens at encoding?
 
 
-...The word isn&rsquo;t encoded, and is skipped in the sequence
-
-
-The word isn&rsquo;t encoded, and is replaced by a zero in the sequence
-
-
 ...If you have a number of sequences of different lengths, how do you ensure that they are understood when fed into a neural network?
 
 
-Process them on the input layer of the Neural Netword using the pad_sequences property
-
-
-...Specify the input layer of the Neural Network to expect different sizes with dynamic_length
-
-
-Make sure that they are all the same length using the pad_sequences method of the tokenizer
+...Make sure that they are all the same length using the pad_sequences method of the tokenizer
 
 
 ...If you have a number of sequences of different length, and call pad_sequences on them, what&rsquo;s the default result?
 
 
-They&rsquo;ll get cropped to the length of the shortest sequence
-
-
-They&rsquo;ll get padded to the length of the longest sequence by adding zeros to the beginning of shorter ones
-
-
-They&rsquo;ll get padded to the length of the longest sequence by adding zeros to the end of shorter ones
-
-
 ...When padding sequences, if you want the padding to be at the end of the sequence, how do you do it?
 
 
-Call the padding method of the pad_sequences object, passing it &lsquo;after&rsquo;
+...What is the name of the TensorFlow library containing common data that you can use to train and test neural networks?
 
 
-Call the padding method of the pad_sequences object, passing it &lsquo;post&rsquo;
+...It is the number of dimensions required to encode every word in the corpus
 
 
-Pass padding=&rsquo;post&rsquo; to pad_sequences when initializing it
+...It specifies the maximum number of words to be tokenized, and picks the first &lsquo;n&rsquo; words that were tokenized
 
 
-Pass padding=&rsquo;after&rsquo; to pad_sequences when initializing it
+...It specifies the maximum number of words to be tokenized, and picks the most common &lsquo;n&rsquo; words
+
+
+...How does an LSTM help understand meaning when words that qualify each other aren&rsquo;t necessarily beside each other in a sentence?
+
+
+...If a sentence has 120 tokens in it, and a Conv1D with 128 filters with a Kernal size of 5 is passed over it, what&rsquo;s the output shape?
+
+
+...What is the name of the method used to tokenize a list of sentences?
+
+
+...If a sentence has 120 tokens in it, and a Conv1D with 128 filters with a Kernal size of 5 is passed over it, what&rsquo;s the output shape?
+
+
+...It is the number of dimensions required to encode every word in the corpus
+
+
+...If you have a number of sequences of different lengths, how do you ensure that they are understood when fed into a neural network?
+
+
+...Make sure that they are all the same length using the pad_sequences method of the tokenizer
+
+
+...How does an LSTM help understand meaning when words that qualify each other aren&rsquo;t necessarily beside each other in a sentence?
 ]]></content:encoded></item><item><title>A thorough review of Introduction to TensorFlow for Artificial Intelligence&#x2c; Machine Learning&#x2c; and Deep Learning &#x7c; deeplearning.ai</title><dc:creator>Patrick Li</dc:creator><category>Data Science</category><category>Mooc</category><dc:date>2019-11-30T22:32:32-05:00</dc:date><link>https://lipengyuan1994.github.io/blog/files/87c0427f79f2740e14342f9d38255c50-11.html#unique-entry-id-11</link><guid isPermaLink="true">https://lipengyuan1994.github.io/blog/files/87c0427f79f2740e14342f9d38255c50-11.html#unique-entry-id-11</guid><content:encoded><![CDATA[Course Review: Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning
 
 
