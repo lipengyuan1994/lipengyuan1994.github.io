@@ -2,6 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://lipengyuan1994.github.io/index.html</loc>
+		<lastmod>2020-01-05</lastmod>
+	</url>
+	<url>
+		<loc>https://lipengyuan1994.github.io/page-4/index.html</loc>
 	</url>
 	<url>
 		<loc>https://lipengyuan1994.github.io/blog/index.html</loc>
@@ -28,6 +32,9 @@
 		<loc>https://lipengyuan1994.github.io/blog/files/c22b612b2a1abb6d27f66e8b4df4498a-0.html</loc>
 	</url>
 	<url>
+		<loc>https://lipengyuan1994.github.io/blog/files/archive-2019.html</loc>
+	</url>
+	<url>
 		<loc>https://lipengyuan1994.github.io/blog/files/category-data-science.html</loc>
 	</url>
 	<url>
@@ -50,9 +57,6 @@
 	</url>
 	<url>
 		<loc>https://lipengyuan1994.github.io/blog/files/tag-tensorflow.html</loc>
-	</url>
-	<url>
-		<loc>https://lipengyuan1994.github.io/page-4/index.html</loc>
 	</url>
 	<url>
 		<loc>https://lipengyuan1994.github.io/blog-4/index.html</loc>
@@ -82,6 +86,18 @@
 		<loc>https://lipengyuan1994.github.io/blog-4/files/365ecdfc20eb283940d252eb239c7a22-2.html</loc>
 	</url>
 	<url>
+		<loc>https://lipengyuan1994.github.io/blog-4/files/archive-march-2019.html</loc>
+	</url>
+	<url>
+		<loc>https://lipengyuan1994.github.io/blog-4/files/archive-december-2019.html</loc>
+	</url>
+	<url>
+		<loc>https://lipengyuan1994.github.io/blog-4/files/archive-january-2019.html</loc>
+	</url>
+	<url>
+		<loc>https://lipengyuan1994.github.io/blog-4/files/archive-november-2019.html</loc>
+	</url>
+	<url>
 		<loc>https://lipengyuan1994.github.io/blog-4/files/category-personal.html</loc>
 	</url>
 	<url>
@@ -95,6 +111,24 @@
 	</url>
 	<url>
 		<loc>https://lipengyuan1994.github.io/page-3/blog-5/index.html</loc>
+	</url>
+	<url>
+		<loc>https://lipengyuan1994.github.io/page-3/blog-5/files/fd0d7f542c73a4c4964d713ff48e8088-3.html</loc>
+	</url>
+	<url>
+		<loc>https://lipengyuan1994.github.io/page-3/blog-5/files/14556132e92a38d03090bea8a5c54575-2.html</loc>
+	</url>
+	<url>
+		<loc>https://lipengyuan1994.github.io/page-3/blog-5/files/bce9ad9e4f9260ce8fe550b200a21a0d-0.html</loc>
+	</url>
+	<url>
+		<loc>https://lipengyuan1994.github.io/page-3/blog-5/files/category-kaggle.html</loc>
+	</url>
+	<url>
+		<loc>https://lipengyuan1994.github.io/page-3/blog-5/files/category-p-project.html</loc>
+	</url>
+	<url>
+		<loc>https://lipengyuan1994.github.io/page-3/blog-5/files/category-c-project.html</loc>
 	</url>
 	<url>
 		<loc>https://lipengyuan1994.github.io/page-3/blog-5/blog-3/index.html</loc>
