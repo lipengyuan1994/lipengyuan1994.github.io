@@ -2,66 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://lipengyuan1994.github.io/index.html</loc>
-		<lastmod>2020-02-17</lastmod>
 	</url>
 	<url>
 		<loc>https://lipengyuan1994.github.io/markdown/index.html</loc>
-		<lastmod>2020-02-17</lastmod>
 	</url>
 	<url>
 		<loc>https://lipengyuan1994.github.io/blog/index.html</loc>
-		<lastmod>2020-02-17</lastmod>
-	</url>
-	<url>
-		<loc>https://lipengyuan1994.github.io/blog/files/86c351e2ab38e74083f91e031a785eca-0.html</loc>
-		<lastmod>2020-02-17</lastmod>
-	</url>
-	<url>
-		<loc>https://lipengyuan1994.github.io/blog/files/ad158cba43d512e8257effbe03c04b2d-1.html</loc>
-		<lastmod>2020-02-17</lastmod>
-	</url>
-	<url>
-		<loc>https://lipengyuan1994.github.io/blog/files/ecfd231eaacd0fd26db7102d4762a619-2.html</loc>
-		<lastmod>2020-02-17</lastmod>
-	</url>
-	<url>
-		<loc>https://lipengyuan1994.github.io/blog/files/52193231e3aba6f47039ec35c45a692f-3.html</loc>
-		<lastmod>2020-02-17</lastmod>
-	</url>
-	<url>
-		<loc>https://lipengyuan1994.github.io/blog/files/archive-2019.html</loc>
-		<lastmod>2020-02-17</lastmod>
-	</url>
-	<url>
-		<loc>https://lipengyuan1994.github.io/blog/files/category-data-science.html</loc>
-		<lastmod>2020-02-17</lastmod>
-	</url>
-	<url>
-		<loc>https://lipengyuan1994.github.io/blog/files/category-mooc.html</loc>
-		<lastmod>2020-02-17</lastmod>
-	</url>
-	<url>
-		<loc>https://lipengyuan1994.github.io/blog/files/tag-deeplearning.html</loc>
-		<lastmod>2020-02-17</lastmod>
-	</url>
-	<url>
-		<loc>https://lipengyuan1994.github.io/blog/files/tag-machine-learning.html</loc>
-		<lastmod>2020-02-17</lastmod>
-	</url>
-	<url>
-		<loc>https://lipengyuan1994.github.io/blog/files/tag-nlp.html</loc>
-		<lastmod>2020-02-17</lastmod>
-	</url>
-	<url>
-		<loc>https://lipengyuan1994.github.io/blog/files/tag-tensorflow.html</loc>
-		<lastmod>2020-02-17</lastmod>
 	</url>
 	<url>
 		<loc>https://lipengyuan1994.github.io/markdown-2/index.html</loc>
-		<lastmod>2020-02-17</lastmod>
 	</url>
 	<url>
 		<loc>https://lipengyuan1994.github.io/markdown-2/styled/index.html</loc>
-		<lastmod>2020-02-17</lastmod>
 	</url>
 </urlset>
