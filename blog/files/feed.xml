@@ -7,11 +7,23 @@
     xmlns:content="http://purl.org/rss/1.0/modules/content/"
 	xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
 	<channel>
-<title>Patricks blog</title><link>https://lipengyuan1994.github.io/index.html</link><description>new thoughts from Pat</description><dc:language>en</dc:language><language>en</language><dc:creator>patrick li</dc:creator><dc:date>2020-02-17T22:51:25-05:00</dc:date><admin:generatorAgent rdf:resource="http://www.realmacsoftware.com/" />
+<title>Patricks blog</title><link>https://lipengyuan1994.github.io/index.html</link><description>new thoughts from Pat</description><dc:language>en</dc:language><language>en</language><dc:creator>patrick li</dc:creator><dc:date>2020-02-16T23:45:04-05:00</dc:date><admin:generatorAgent rdf:resource="http://www.realmacsoftware.com/" />
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
 <sy:updateBase>2000-01-01T12:00+00:00</sy:updateBase>
-<lastBuildDate>Mon, 17 Feb 2020 22:53:43 -0500</lastBuildDate><item><title>Review: Natural Language Processing in TensorFlow&#x2c; Tensorflow in Practice Specialization&#x2c; Coursera</title><dc:creator>patrick li</dc:creator><category>Data Science</category><category>MOOC</category><dc:date>2019-12-11T23:07:55-05:00</dc:date><link>https://lipengyuan1994.github.io/blog/files/86c351e2ab38e74083f91e031a785eca-0.html#unique-entry-id-0</link><guid isPermaLink="true">https://lipengyuan1994.github.io/blog/files/86c351e2ab38e74083f91e031a785eca-0.html#unique-entry-id-0</guid><content:encoded><![CDATA[		The most interesting I learned this week is how to pull out the embedding layer and use projector.tensorflow.org to visualize your word embeddings.
+<lastBuildDate>Mon, 17 Feb 2020 23:47:04 -0500</lastBuildDate><item><title>Focused and Diffuse thinking modes &#x7c; Learning How to Learn</title><dc:creator>patrick li</dc:creator><category>MOOC</category><dc:date>2020-02-16T23:45:04-05:00</dc:date><link>https://lipengyuan1994.github.io/blog/files/423198e9556edb1353fbe5e6120f5f64-5.html#unique-entry-id-5</link><guid isPermaLink="true">https://lipengyuan1994.github.io/blog/files/423198e9556edb1353fbe5e6120f5f64-5.html#unique-entry-id-5</guid><content:encoded><![CDATA[This course can change the way you think about your brain and the way you think of your learning ability. 
+
+...We are familiar with focusing, it's when you concentrate intently on something you're trying to learn or to understand.
+
+
+...We are not familiar with diffuse thinking, however, this more relaxed thinking style is as important as focus mode, some cases, even more important.
+
+
+...When Edison would fall asleep, the ball bearings would drop and clatter to the ground just as with Dal&iacute;, and it would wake Edison up, and off he'd go with his ideas from the diffuse mode ready to take them into the focus mode and build on them.
+
+
+So, the bottom line is, when you're learning something new, especially something that's a little more difficult, your mind needs to be able to go back and forth between the two different learning modes.
+]]></content:encoded></item><item><title>Review: Natural Language Processing in TensorFlow&#x2c; Tensorflow in Practice Specialization&#x2c; Coursera</title><dc:creator>patrick li</dc:creator><category>Data Science</category><category>MOOC</category><dc:date>2019-12-11T23:07:55-05:00</dc:date><link>https://lipengyuan1994.github.io/blog/files/86c351e2ab38e74083f91e031a785eca-0.html#unique-entry-id-0</link><guid isPermaLink="true">https://lipengyuan1994.github.io/blog/files/86c351e2ab38e74083f91e031a785eca-0.html#unique-entry-id-0</guid><content:encoded><![CDATA[		The most interesting I learned this week is how to pull out the embedding layer and use projector.tensorflow.org to visualize your word embeddings.
 
 
 ...For example, you could have &lsquo;not fun,&rsquo; which of course, is the opposite of &lsquo;fun,&rsquo; that&rsquo;s why sequence models are very important in NLP.
