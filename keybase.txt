@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/honey_badger
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://lipengyuan1994.github.io
+  * I am honey_badger (https://keybase.io/honey_badger) on keybase.
+  * I have a public key ASBs4mugdwyLBFhcjnwcgfr3CuM50RFfH0fDzhkv-38pOgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012024a288fed7e32ad7e1285c94bf0663a8c47c0b753dbcaf5737b758f25dc8fa580a",
+      "host": "keybase.io",
+      "kid": "01206ce26ba0770c8b04585c8e7c1c81faf70ae339d1115f1f47c3ce192ffb7f293a0a",
+      "uid": "18aa6ed6c6e8fa37e258b9202902ab19",
+      "username": "honey_badger"
+    },
+    "merkle_root": {
+      "ctime": 1588976903,
+      "hash": "d01e28e18f99a9309fb10c4e7fedea46a6de18e174df4c5a9fa955283dc7f016e22b9a1672370d9ad20a0f47e47d412e924f08ebd23214f01b18a207b16722f1",
+      "hash_meta": "d8412da7bbcd3eded1442a2d6aa2ab08a07e215bda128ca5767eecfefc9be1a5",
+      "seqno": 16222418
+    },
+    "service": {
+      "entropy": "oPNTjGJrIGL92zNtfUOHAKbL",
+      "hostname": "lipengyuan1994.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.4.2"
+  },
+  "ctime": 1588976960,
+  "expire_in": 504576000,
+  "prev": "410d0d27ee06da4d9e6d8a2c83a18ff6f675c2cabcb1154c3bb6171fda58cd88",
+  "seqno": 11,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgbOJroHcMiwRYXI58HIH69wrjOdERXx9Hw84ZL/t/KToKp3BheWxvYWTESpcCC8QgQQ0NJ+4G2k2ebYosg6GP9vZ1wsq8sRVMO7YXH9pYzYjEIKuaEmJeiywC6P9Gjogt2p67cOnkkk3+zHnaqqyOLSNoAgHCo3NpZ8RAdzXhnnHlX255o6zuNLrwYy+9z+43lPYfOcp55elMmH+UjfU6G3DlvWUtaSrXNADkQCtJyES0tR1xV2oMrjx9C6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIMnxs09RnhawNdJxKhdpwByLSrlkAKww7sTKYkV0v3cco3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/honey_badger
+
+==================================================================
